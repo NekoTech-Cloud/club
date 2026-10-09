@@ -82,6 +82,10 @@ public class Club
         {
             System.out.println("Month cannot be outside of range 1-12");
         }
+        if (year < 1950 || year > 2026)
+        {
+            System.out.println("Year cannot be outside of range 1950-2026");
+        }
         else 
         {
             while(it.hasNext())
